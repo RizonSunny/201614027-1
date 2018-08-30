@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="rizon.myapplication.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter value for conversion"
+        android:layout_gravity="center"
+
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#008080"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/inp"
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:inputType="number"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Taka to Dollar"
+        android:id="@+id/T2D"
+        android:layout_gravity="left"
+        android:layout_marginLeft="5dp"
+        android:textSize="20sp"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Degree to Radian"
+        android:id="@+id/D2R"
+        android:layout_gravity="left"
+        android:layout_marginLeft="5dp"
+        android:textSize="20sp"/>
+    <CheckBox
+        android:id="@+id/T2S"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Theta to Sine"
+        android:layout_gravity="left"
+        android:layout_marginLeft="5dp"
+        android:textSize="20sp"/>
+
+    <CheckBox
+        android:id="@+id/T2C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Theta to Cosine"
+        android:layout_gravity="left"
+        android:layout_marginLeft="5dp"
+        android:textSize="20sp"/>
+
+    <CheckBox
+        android:id="@+id/L2M"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="5dp"
+        android:text="Litre to Metre Qube"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/B2B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Byte to Bit"
+        android:layout_gravity="left"
+        android:layout_marginLeft="5dp"
+        android:textSize="20sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convert"
+        android:id="@+id/res"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:paddingLeft="145dp"
+        android:paddingRight="145dp"
+        android:layout_marginBottom="0dp"
+        android:textColor="#ffff"
+        android:background="#008080"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Results Are-"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#008080"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/show"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#ffff"/>
+
+
+
+</LinearLayout>
